@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="90dp"
+            android:src="@drawable/icono"
+            android:id="@+id/imagenyoutube"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/titulovideo"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Título"
+            android:textSize="20dp"
+            android:layout_toRightOf="@+id/imagenyoutube"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Canal"
+            android:id="@+id/canal"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/imagenyoutube"
+            android:layout_below="@id/titulovideo"/>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
